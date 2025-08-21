@@ -8,6 +8,6 @@
 
 ## Ответ на задание:
 1) [Параметры моей ситемы](https://github.com/Che3108/otus_cv_adv/blob/main/lesson_1/info_OS_CPU_GPU.png)
-2) Скриншот библиотек в docker-контейнере
+2) [Скриншот библиотек в docker-контейнере] (https://github.com/Che3108/otus_cv_adv/blob/main/lesson_1/torch_tf_in_docker.png)
 3) Скриншот версий в colab
 4) Сборка контейнера на основе ubuntu 24.04
