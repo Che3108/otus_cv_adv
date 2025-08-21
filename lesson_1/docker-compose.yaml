@@ -1,0 +1,17 @@
+services:
+  work_space:
+    build:
+      context: ./work_space
+      dockerfile: Dockerfile
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/work_dir/notebooks
+      - ./data:/work_dir/notebooks
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0']
+              capabilities: [gpu]
