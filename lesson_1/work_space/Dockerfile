@@ -10,6 +10,7 @@ RUN apt-get -y update &&\
     apt-get -y install python3-pip &&\
     apt-get -y install wget &&\
     apt-get -y install ffmpeg &&\
+    apt-get -y install unzip &&\
     #wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2404/x86_64/cuda-keyring_1.1-1_all.deb &&\
     #dpkg -i cuda-keyring_1.1-1_all.deb &&\
     #apt-get update &&\

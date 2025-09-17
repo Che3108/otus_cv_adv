@@ -6,8 +6,8 @@ services:
     ports:
       - "8888:8888"
     volumes:
-      - ./notebooks:/work_dir/notebooks
-      - ./data:/work_dir/notebooks
+      - ./../lesson_7/notebooks:/work_dir/notebooks
+      - ./../lesson_7/data:/work_dir/data
     deploy:
       resources:
         reservations:
